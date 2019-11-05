@@ -1,0 +1,21 @@
+export TERM=xterm
+xtermcontrol --color0	'#eee8d5'
+xtermcontrol --color1	'#dc322f'
+xtermcontrol --color2	'#859900'
+xtermcontrol --color3	'#b58900'
+xtermcontrol --color4	'#268bd2'
+xtermcontrol --color5	'#d33682'
+xtermcontrol --color6	'#2aa198'
+xtermcontrol --color7	'#073642'
+xtermcontrol --color8	'#fdf6e3'
+xtermcontrol --color9	'#cb4b16'
+xtermcontrol --color10	'#93a1a1'
+xtermcontrol --color11	'#839496'
+xtermcontrol --color12	'#657b83'
+xtermcontrol --color13	'#6c71c4'
+xtermcontrol --color14	'#586e75'
+xtermcontrol --color15	'#002b36'
+xtermcontrol --bg	'#fdf6e3'
+xtermcontrol --fg	'#2aa198'
+
+# dircolors ~/.dir_colors.256solarlight 

@@ -1,0 +1,26 @@
+export TERM=xterm
+xtermcontrol --fg '#8ca68c'
+xtermcontrol --bg '#131513'
+xtermcontrol --cursor '#8ca68c'
+xtermcontrol --color0 '#131513'
+xtermcontrol --color8 '#2F312F'
+xtermcontrol --color1 '#e6193c'
+xtermcontrol --color9 '#e6193c'
+xtermcontrol --color2 '#29a329'
+xtermcontrol --color10 '#29a329'
+xtermcontrol --color3 '#c3c322'
+xtermcontrol --color11 '#c3c322'
+xtermcontrol --color4 '#3d62f5'
+xtermcontrol --color12 '#3d62f5'
+xtermcontrol --color5 '#ad2bee'
+xtermcontrol --color13 '#ad2bee'
+xtermcontrol --color6 '#1999b3'
+xtermcontrol --color14 '#1999b3'
+xtermcontrol --color7 '#8ca68c'
+xtermcontrol --color15 '#f0fff0'
+if [[ ! -z $TMUX ]] ; then
+    echo "Setting TMUX window-style"
+    tmux set -g window-style 'fg=#8ca68c'
+    tmux set -g window-style 'bg=#131513'
+fi
+
